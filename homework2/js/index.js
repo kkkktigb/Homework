@@ -2,7 +2,7 @@ var proName = "";
 var proVersion = "";
 var proAuth = "";
 function pageOnload(){
-    initPage(proName?proName:"第1周作业",proVersion?proVersion:"1.0",proVersion?proVersion:"chenggang");
+    initPage(proName?proName:"第1周作业",proVersion?proVersion:"1.0",proAuth?proAuth:"chenggang");
 }
 
 function initPage(proName,proVersion,proAuth){
